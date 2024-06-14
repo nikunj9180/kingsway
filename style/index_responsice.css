@@ -1,0 +1,153 @@
+@media screen and (max-width:1145px){
+    .banner{
+        background-position: bottom;
+        background-size: contain;
+    }
+    .banner-content{
+        right: 5%;
+        text-align: right;
+    }
+    .banner-content h1{
+        font-size: 2rem;
+    }
+    .banner-content h2{
+        font-size: 1.5rem;
+    }
+}
+@media screen and (max-width:800px){
+    .ser-card{
+        width: calc(50% - 5px);
+        height: 400px;
+    }
+    .service-cards{
+        justify-content: space-between; 
+    }
+    .service-cards .ser-card:nth-child(2){
+        border-right: none;
+        border-left: 1px solid var(--dark-color);
+    }
+    .service-cards .ser-card:nth-child(4){
+        border-left: 1px solid var(--dark-color);
+    }
+    .aboutus-img{
+        width: 70%;
+    }
+    .nav-toggle{
+        display: initial;
+    }
+    .cross{
+        display: none;
+    }
+    .navlinks{
+        position: absolute;
+        top: 100%;
+        left: -100%;
+        width: 100%;
+        background-color: var(--dark-color);
+        padding: var(--padding-inline);
+        transition: 0.3s all ease-in;
+    }
+    .navlinks.active{
+        left: 0%;
+    }
+    .hoverlinks{
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav-cont.active .cross{
+        display: initial;
+    }
+    .nav-cont.active .hamburger{
+        display: none;
+    }
+    .reasons-card{
+        width: calc(50% - 10px);
+    }
+    .reasons{
+        gap: 10px;
+    }
+}
+@media screen and (max-width:750px){
+    .aboutus-contents{
+        flex-direction: column;
+    }
+    .topb-text{
+        display: none;
+    }
+    .right-top-banner{
+        align-items: center;
+    }
+    .top-ban-cont{
+        align-items: center;
+        padding: var(--padding-inline);
+    }
+    .banner-content{
+        top: 20%;
+        left: 0%;
+        text-align: right;
+    }
+    .banner{
+        background: url(Asset/bg2.png);
+        background-repeat: no-repeat;
+        background-size: 100% 70%;
+        background-position: bottom;
+        
+    }
+    .main-banner{
+        background: linear-gradient(white,var(--light-color));
+    }
+    .ser-card{
+        width: 100%;
+    }
+    .service-cards{
+        gap: 0px;
+    }
+    .ser-card img{
+        height: 60%;
+    }
+    .ser-card{
+        border-bottom: 1px solid var(--dark-color);
+    }
+    .reasons-card{
+        width: 100%;
+    }
+    .main-contact{
+        flex-direction: column;
+    }
+    .contact-details{
+        width: 100%;
+    }
+    .contact-form{
+        width: 100%;
+    }
+}
+@media screen and (max-width:440px){
+    .banner{
+        background-size: 100% 50%;
+    }
+    .intrested-cont{
+        justify-content: center;
+        gap: 10px;
+    }
+    .app-banner-cont{
+        flex-direction: column;
+        height: auto;
+    }
+    .left-app{
+        height: 250px;
+        width: 100%;
+    }
+    .right-app{
+        width: 100%;
+    }
+    .right-app h2{
+        font-size: 1.5rem;
+    }
+    .right-app{
+        gap: 5px;
+    }
+    .download-btns a{
+        width: 200px;
+    }
+    
+}
